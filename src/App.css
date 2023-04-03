@@ -57,3 +57,52 @@ html {
   margin: 25px;
   border-radius: 26px;
 }
+
+/* Estilos para dispositivos móviles con pantalla menor o igual a 768px */
+@media only screen and (max-width: 768px) {
+
+  /* Estilos generales */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Título h2 */
+  h2 {
+    
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+  /* Cuerpo de la página */
+  
+  body {
+    margin-top: 20px;
+    background-image: none;
+  }
+
+  /* Contenedor de la aplicación de tareas */
+  .aplicacion-tareas {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  /* Contenedor del logo */
+  .logo-contenedor {
+    margin: 5px;
+  }
+
+  /* Imagen del logo */
+  .logo-imagen {
+    width: 40px;
+  }
+
+  /* Lista de tareas */
+  .tareas-lista-principal {
+    width: 100%;
+    min-height: auto;
+    margin: 10px;
+    border-radius: 10px;
+  }
+}
